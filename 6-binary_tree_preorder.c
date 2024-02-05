@@ -1,4 +1,3 @@
-6-binary_tree_preorder.c
 #include "binary_trees.h"
 
 /**
