@@ -17,13 +17,13 @@ int check_max(const binary_tree_t *tree)
 	{
 		if (tree->n <= tree->left->n)
 			return (0);
-		tmp = check_max(tree->left);
+		tm = check_max(tree->left);
 	}
 	if (tree->right)
 	{
 		if (tree->n <= tree->right->n)
 			return (0);
-		tmp = check_max(tree->right);
+		tm = check_max(tree->right);
 	}
 	return (tm1 && tm2);
 }
